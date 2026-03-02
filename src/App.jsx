@@ -14,7 +14,6 @@ const App = () => {
           <h1>WeatherApp</h1>
           <p>Sprawdź warunki w dowolnym mieście</p>
         </header>
-
         <SearchBar onSearch={fetchWeather} />
         <div className="content-area">
           {loading && <div className="loader">Ładowanie danych...</div>}
